@@ -55,8 +55,12 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-    implementation("com.pangle.global:ads-sdk:+") {
-        exclude(group = "com.pangle.global", module = "crash_monitor")
-        exclude(group = "com.pangle.global", module = "global:encryptor")
-    }
+//    implementation("com.pangle.global:ads-sdk:+") {
+//        exclude(group = "com.pangle.global", module = "crash_monitor")
+//        exclude(group = "com.pangle.global", module = "global:encryptor")
+//    }
+//    implementation("com.applovin:applovin-sdk:+")
+//    implementation("com.applovin.mediation:inmobi-adapter:+")
+    //inmobi test
+    implementation("com.inmobi.monetization:inmobi-ads-kotlin:10.5.9")
 }
